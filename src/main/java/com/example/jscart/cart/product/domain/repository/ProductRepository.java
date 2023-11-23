@@ -1,6 +1,6 @@
-package com.example.jscart.domain.product.repository;
+package com.example.jscart.cart.product.domain.repository;
 
-import com.example.jscart.domain.product.entity.Product;
+import com.example.jscart.cart.product.domain.entity.Product;
 import java.util.List;
 
 public interface ProductRepository {

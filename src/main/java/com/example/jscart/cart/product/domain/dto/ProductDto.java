@@ -1,6 +1,6 @@
-package com.example.jscart.domain.product.dto;
+package com.example.jscart.cart.product.domain.dto;
 
-import com.example.jscart.domain.product.entity.Product;
+import com.example.jscart.cart.product.domain.entity.Product;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;

@@ -1,4 +1,4 @@
-package com.example.jscart.domain.product.vo;
+package com.example.jscart.cart.product.domain.vo;
 
 public class ImagePath {
   private String path;

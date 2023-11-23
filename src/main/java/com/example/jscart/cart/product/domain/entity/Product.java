@@ -1,9 +1,9 @@
-package com.example.jscart.domain.product.entity;
+package com.example.jscart.cart.product.domain.entity;
 
-import com.example.jscart.domain.product.vo.ImagePath;
-import com.example.jscart.domain.product.vo.Price;
-import com.example.jscart.domain.product.vo.ProductId;
-import com.example.jscart.domain.product.vo.ProductName;
+import com.example.jscart.cart.product.domain.vo.ImagePath;
+import com.example.jscart.cart.product.domain.vo.Price;
+import com.example.jscart.cart.product.domain.vo.ProductId;
+import com.example.jscart.cart.product.domain.vo.ProductName;
 import java.time.LocalDateTime;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

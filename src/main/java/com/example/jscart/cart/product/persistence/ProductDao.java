@@ -1,7 +1,7 @@
-package com.example.jscart.persistence;
+package com.example.jscart.cart.product.persistence;
 
-import com.example.jscart.domain.product.entity.Product;
-import com.example.jscart.domain.product.repository.ProductRepository;
+import com.example.jscart.cart.product.domain.entity.Product;
+import com.example.jscart.cart.product.domain.repository.ProductRepository;
 import java.time.LocalDateTime;
 import java.util.HashMap;
 import java.util.List;

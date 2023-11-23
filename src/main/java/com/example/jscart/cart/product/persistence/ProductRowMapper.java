@@ -1,10 +1,10 @@
-package com.example.jscart.persistence;
+package com.example.jscart.cart.product.persistence;
 
-import com.example.jscart.domain.product.entity.Product;
-import com.example.jscart.domain.product.vo.ImagePath;
-import com.example.jscart.domain.product.vo.Price;
-import com.example.jscart.domain.product.vo.ProductId;
-import com.example.jscart.domain.product.vo.ProductName;
+import com.example.jscart.cart.product.domain.entity.Product;
+import com.example.jscart.cart.product.domain.vo.ImagePath;
+import com.example.jscart.cart.product.domain.vo.Price;
+import com.example.jscart.cart.product.domain.vo.ProductId;
+import com.example.jscart.cart.product.domain.vo.ProductName;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import org.springframework.jdbc.core.RowMapper;

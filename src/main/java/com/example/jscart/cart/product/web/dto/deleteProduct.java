@@ -1,4 +1,4 @@
-package com.example.jscart.web.dto;
+package com.example.jscart.cart.product.web.dto;
 
 import javax.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;

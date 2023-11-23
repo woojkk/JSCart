@@ -1,10 +1,10 @@
-package com.example.jscart.web;
+package com.example.jscart.cart.product.web;
 
-import com.example.jscart.domain.product.dto.ProductDto;
-import com.example.jscart.domain.product.service.ProductService;
-import com.example.jscart.web.dto.CreateProduct;
-import com.example.jscart.web.dto.ProductInfo;
-import com.example.jscart.web.dto.UpdateProduct;
+import com.example.jscart.cart.product.domain.dto.ProductDto;
+import com.example.jscart.cart.product.domain.service.ProductService;
+import com.example.jscart.cart.product.web.dto.CreateProduct;
+import com.example.jscart.cart.product.web.dto.ProductInfo;
+import com.example.jscart.cart.product.web.dto.UpdateProduct;
 import java.util.List;
 import java.util.stream.Collectors;
 import javax.validation.Valid;

@@ -1,11 +1,11 @@
-package com.example.jscart.domain.product.service;
+package com.example.jscart.cart.product.domain.service;
 
-import com.example.jscart.domain.product.dto.ProductDto;
-import com.example.jscart.domain.product.entity.Product;
-import com.example.jscart.domain.product.repository.ProductRepository;
-import com.example.jscart.domain.product.vo.ImagePath;
-import com.example.jscart.domain.product.vo.Price;
-import com.example.jscart.domain.product.vo.ProductName;
+import com.example.jscart.cart.product.domain.dto.ProductDto;
+import com.example.jscart.cart.product.domain.entity.Product;
+import com.example.jscart.cart.product.domain.repository.ProductRepository;
+import com.example.jscart.cart.product.domain.vo.ImagePath;
+import com.example.jscart.cart.product.domain.vo.Price;
+import com.example.jscart.cart.product.domain.vo.ProductName;
 import java.util.List;
 import java.util.stream.Collectors;
 import lombok.RequiredArgsConstructor;

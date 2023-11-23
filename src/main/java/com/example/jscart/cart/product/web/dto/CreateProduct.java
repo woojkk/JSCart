@@ -1,6 +1,6 @@
-package com.example.jscart.web.dto;
+package com.example.jscart.cart.product.web.dto;
 
-import com.example.jscart.domain.product.dto.ProductDto;
+import com.example.jscart.cart.product.domain.dto.ProductDto;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
@@ -8,7 +8,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 
-public class UpdateProduct {
+public class CreateProduct {
 
   @Getter
   @AllArgsConstructor
@@ -19,7 +19,6 @@ public class UpdateProduct {
     @NotNull
     @Min(0)
     private int price;
-    @NotEmpty
     private String image;
   }
 
