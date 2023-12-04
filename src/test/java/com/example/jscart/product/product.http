@@ -1,0 +1,13 @@
+###
+POST http://localhost:8080/products
+Content-Type: application/json
+
+{
+  "name" : "팝콘",
+  "price" : 5000,
+  "image" : "/images/popcorn.jpeg"
+}
+
+###
+GET http://localhost:8080/products
+Accept: application/json
