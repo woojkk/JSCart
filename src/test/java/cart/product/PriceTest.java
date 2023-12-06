@@ -10,9 +10,8 @@ public class PriceTest {
   void failPriceValueUnderZero() {
     int price = -1;
 
-    Assertions.assertThatThrownBy(() -> {
-      new Price(price);
-    }).isInstanceOf(IllegalArgumentException.class)
+    Assertions.assertThatThrownBy(() -> new Price(price))
+        .isInstanceOf(IllegalArgumentException.class)
         .hasMessage("가격은 0원 이하일 수 없습니다.");
   }
 
